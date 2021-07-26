@@ -2,10 +2,16 @@
  This application will be built off of React with a Rails API. The Rails API repo is here:
          <a href ="https://github.com/Sydnee510/kamala_facts_2_backend"> API Kamala Facts 2 </a>
          Clone it so you can see how it operates and lets get creative! 
+
 ## DONT GET ME CONFUSED WITH KAMALA FACTS 1 
 Kamala Facts 1 application:
          <a href ="https://kamalafacts.com/"> Remember Me </a>
-         
+
+## Installation
+
+Clone this repo:
+
+https://github.com/Kamala-Facts-Team/kamala_facts_2_frontend
 
 ## Available Scripts
 
