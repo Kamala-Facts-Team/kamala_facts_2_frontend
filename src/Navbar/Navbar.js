@@ -1,25 +1,24 @@
-import React from 'react';
-import SearchBar from '../Components/SearchBar';
-import {Nav, NavLink, Bars, NavMenu,} from '../Navbar/NavbarElements';
+import React from "react";
+import SearchBar from "../Components/SearchBar";
+import { Nav, NavLink, Bars, NavMenu } from "../Navbar/NavbarElements";
 
-class Navbar extends React.Component {
-    render() {
-      return (
+export default function Navbar() {
+    return (
         <div className="App">
-          <center>
-            <Nav>
-              <Bars />
-              <NavMenu>
-                  <NavLink to='/' exact activeStyle> Home </NavLink>
-                  <NavLink to='/about' activeStyle> About </NavLink>
-              </NavMenu>
-              <SearchBar/>
-            </Nav>
-          </center>
+            <center>
+                <Nav>
+                    <Bars />
+                    <NavMenu>
+                        <NavLink to="/" exact activeStyle>
+                            Home
+                        </NavLink>
+                        <NavLink to="/about" activeStyle>
+                            About
+                        </NavLink>
+                    </NavMenu>
+                    <SearchBar />
+                </Nav>
+            </center>
         </div>
-      );
-    } 
-  }
-  
-  export default Navbar;
-  
+    );
+}
