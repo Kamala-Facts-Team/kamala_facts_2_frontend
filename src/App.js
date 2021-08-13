@@ -1,18 +1,13 @@
-import React from 'react';
-import MythsContainer from './Containers/MythsContainer'
-import './style.css';
+import React from "react";
+import MythsContainer from "./Containers/MythsContainer";
+import "./style.css";
 
-class App extends React.Component {
-  render() {
+export default function App() {
     return (
-      <div className="App">
-        <center>
-        <MythsContainer/>
-        </center>
-      </div>
+        <div className="App">
+            <center>
+                <MythsContainer />
+            </center>
+        </div>
     );
-  } 
-  
 }
-
-export default App;
