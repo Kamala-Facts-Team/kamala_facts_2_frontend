@@ -1,7 +1,7 @@
 import React from "react";
-import About from "../Components/About";
+import About from "../Components//About/About";
 import Navbar from "../Navbar/Navbar";
-import Myths from "../Components/Myths";
+import Myths from "../Components/Myths/Myths";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../style.css";
 

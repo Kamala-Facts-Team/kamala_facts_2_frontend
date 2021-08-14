@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBar from "../Components/SearchBar";
+import SearchBar from "../Components//Search/SearchBar";
 import { Nav, NavLink, Bars, NavMenu } from "../Navbar/NavbarElements";
 
 export default function Navbar() {
