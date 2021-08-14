@@ -5,6 +5,7 @@ import Notes from "../../Notes";
 export default function Myths() {
   // usestate
   const [myths, setMyths] = useState({});
+  const [Loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -13,6 +14,7 @@ export default function Myths() {
       );
       const data = await response.json();
       setMyths(data);
+      setLoading(true);
     };
 
     fetchData();
@@ -21,6 +23,8 @@ export default function Myths() {
   console.log("hii");
 
   console.log(myths);
+  console.log(Loading)
+  ;
 
 
   // im mapping over object values, then mapping over nested array values(Marlo)
@@ -48,7 +52,8 @@ export default function Myths() {
         <SearchBar />
 
         <h1>The myths will render heress </h1>
-        {mapMyths}
+        {Loading ? mapMyths : <div>Loading</div>}
+        {/* {mapMyths} */}
       </center>
     </div>
   );
