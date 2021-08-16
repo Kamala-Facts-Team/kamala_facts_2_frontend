@@ -8,8 +8,10 @@ import "../style.css";
 export default function MythsContainer() {
     // set up component-did-mount here while rendering the fetch request
     // set up a different file 'FetchMyths' to fetch the myths to keep the code clean
-
+///function map over array
+    
     return (
+        // 
         <div className="App">
             <center>
                 <Router>

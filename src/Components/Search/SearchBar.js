@@ -1,10 +1,11 @@
 import React from "react";
+import "./search.css"
 
 export default function SearchBar() {
     return (
-        <div className="App">
+        <div className="search_div">
             <center>
-                <form action="/" method="get">
+                <form  className="form" action="/" method="get">
                     <label htmlFor="header-search">
                         <span className="visually-hidden">Search Myths </span>
                     </label>
