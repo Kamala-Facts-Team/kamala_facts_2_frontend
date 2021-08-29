@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import SearchBar from "../Search/SearchBar";
+import PageSearchBar from "../Search/PageSearchBar";
 import Notes from "../../Notes";
 
 export default function Myths() {
@@ -31,9 +31,9 @@ export default function Myths() {
   const mapMyths = Object.values(myths).map((item) => {
     return (
       <div key={item.id}>
-        <h3>`LIES: ${item.lie_statement}`</h3>
+        <h3>`Myth: ${item.lie_statement}`</h3>
         {item.facts.map((fact) => {
-          return <p>`Facts: {fact.truth_statement}`</p>;
+          return <p>`Truth: {fact.truth_statement}`</p>;
         })}
       </div>
     );
@@ -48,10 +48,11 @@ export default function Myths() {
           src="https://www.gannett-cdn.com/presto/2019/12/05/USAT/751f29ad-47cd-4791-9506-d4b6b846b53e-KamalaHarris.jpg"
           alt="Kamala Harris"
         />
-
-        <SearchBar />
-
-        <h1>The myths will render heress </h1>
+        
+      
+        <PageSearchBar />
+        
+        <h1>The myths will render here </h1>
         {Loading ? mapMyths : <div>Loading</div>}
         {/* {mapMyths} */}
       </center>
