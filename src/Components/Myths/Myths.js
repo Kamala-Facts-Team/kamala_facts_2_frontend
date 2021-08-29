@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SearchBar from "../Search/SearchBar";
 import Notes from "../../Notes";
+import LatestNews from "../LatestNews/LatestNews";
 
 export default function Myths() {
   // usestate
@@ -48,6 +49,7 @@ export default function Myths() {
           src="https://www.gannett-cdn.com/presto/2019/12/05/USAT/751f29ad-47cd-4791-9506-d4b6b846b53e-KamalaHarris.jpg"
           alt="Kamala Harris"
         />
+        <LatestNews />
 
         <SearchBar />
 

@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="main_div">
                 <div className="main_div1">
 
-                <h1>Kamala Facts</h1>
+                <h1 >Kamala Facts</h1>
                 <button className="cont-Button">become a contributor</button>
                 </div>
                 <div className="main_div2">
