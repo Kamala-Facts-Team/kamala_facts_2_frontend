@@ -1,17 +1,12 @@
 import React from "react";
-import About from "../Components//About/About";
+import About from "../Components/About/About";
 import Navbar from "../Navbar/Navbar";
 import Myths from "../Components/Myths/Myths";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../style.css";
 
-export default function MythsContainer() {
-    // set up component-did-mount here while rendering the fetch request
-    // set up a different file 'FetchMyths' to fetch the myths to keep the code clean
-///function map over array
-    
+export default function Routes() {  
     return (
-        // 
         <div className="App">
             <center>
                 <Router>

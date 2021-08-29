@@ -1,12 +1,12 @@
 import React from "react";
-import MythsContainer from "./Containers/MythsContainer";
+import Routes from "./Containers/Routes";
 import "./style.css";
 
 export default function App() {
     return (
         <div className="App">
             <center>
-                <MythsContainer />
+                <Routes />
             </center>
         </div>
     );
