@@ -57,7 +57,6 @@ export default function Myths() {
                 />
 
                 <PageSearchBar setInputData={setInputData} inputData={inputData} />
-                <p>{inputData}</p>
 
                 <h1>The myths will render here </h1>
                 {Loading ? mapMyths : <div>Loading</div>}
