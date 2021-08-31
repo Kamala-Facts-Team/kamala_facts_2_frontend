@@ -20,13 +20,13 @@ export default function PageSearchBar(props) {
                     <input
                         type="text"
                         id="header-search"
-                        placeholder="Search Myths"
+                        placeholder="Search False Statements..."
                         name="s"
                         value={props.inputData}
                         onChange={handleChange}
                     />
 
-                    <button type="submit">Search</button>
+                    {/* <button type="submit">Search</button> */}
                 </form>
             </center>
         </div>
