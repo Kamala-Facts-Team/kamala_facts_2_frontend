@@ -1,5 +1,4 @@
 import React from "react";
-import NavSearchBar from "../Components/Search/NavSearchBar";
 import { NavLink } from "../Navbar/NavbarElements";
 import "./nav.css";
 
@@ -16,7 +15,6 @@ export default function Navbar() {
                 Notes
             </NavLink>
 
-            <NavSearchBar />
         </div>
     );
 }
