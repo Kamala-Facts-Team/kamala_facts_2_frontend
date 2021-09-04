@@ -6,16 +6,18 @@
 }
 
 .page-searchbar input {
-    width: 40rem;
+    border-radius: 30px;
+    height: 32px;
+    width: 41rem;
     box-sizing: border-box;
     font-size: 16px;
     padding: 12px 20px;
-    background-image: url(../../images/searchicon.png);
+    background-image: url(../../assets/images/searchicon.png);
     background-size: 1rem;
     background-color: white;
-    background-position: 610px 13px;
+    background-position: 10px 7px;
     background-repeat: no-repeat;
-    padding: 12px 0 12px 12px;
+    padding: 12px 0 12px 30px;
 }
 
 .page-searchbar {

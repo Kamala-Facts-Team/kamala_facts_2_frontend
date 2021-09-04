@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import PageSearchBar from "../Search/PageSearchBar";
+import PageSearchBar from "../../components/searchbar/PageSearchBar";
 import "./myths.css";
 
 export default function Myths() {
@@ -43,14 +43,14 @@ export default function Myths() {
         });
 
     return (
-        <div className="App">
+        <div className="home_container">
             <center>
-                <h1>Kamala's Fact Search Engine</h1>
-                <img
+                <h1 className="title">Kamala's Fact Search Engine</h1>
+                {/* <img
                     class="Kamala-pic-1"
                     src="https://www.gannett-cdn.com/presto/2019/12/05/USAT/751f29ad-47cd-4791-9506-d4b6b846b53e-KamalaHarris.jpg"
                     alt="pic of Kamala Harris"
-                />
+                /> */}
 
                 <PageSearchBar setInputData={setInputData} inputData={inputData} />
 
