@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "../Navbar/NavbarElements";
+import { NavLink } from "./NavbarElements";
 import "./nav.css";
 
 export default function Navbar() {
@@ -14,7 +14,6 @@ export default function Navbar() {
             <NavLink className="nav-link" to="/notes" activeStyle>
                 Notes
             </NavLink>
-
         </div>
     );
 }
