@@ -11,3 +11,19 @@
     height: 300px;
     width: 350px;
 }
+
+
+ .App{
+    background-image:  linear-gradient(
+        rgba(26, 45, 58, 0.775), 
+        rgba(26, 45, 58, 0.775)
+      ),url("https://cdn.britannica.com/47/213247-050-92140283/United-States-senator-Democratic-presidential-candidate-Kamala-Harris-April-2019.jpg");
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    /* background-size: cover; */
+     background-size: 100%; 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+ }

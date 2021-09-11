@@ -1,0 +1,14 @@
+.outer-Div {
+   
+    overflow: hidden;
+    overflow:scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* border-style: solid;
+    border-color: green; */
+    width:50%;
+    height: 400px;
+    position: relative;
+    top:200px
+}

@@ -1,27 +1,24 @@
 import React from "react";
 import SearchBar from "../Components//Search/SearchBar";
 import { Nav, NavLink, Bars, NavMenu } from "../Navbar/NavbarElements";
-import "./nav.css"
+import "./nav.css";
 
 export default function Navbar() {
-    return (
-        <div className="main_div">
-                <div className="main_div1">
+  return (
+    <div className="Nav-div">
+      <div className="Nav-innderDiv">
+        {/* <Bars /> */}
 
-                <h1 >Kamala Facts</h1>
-                <button className="cont-Button">become a contributor</button>
-                </div>
-                <div className="main_div2">
-                <SearchBar />
-                </div >
-                    {/* <Bars /> */}
-                 
-                        {/* <NavLink to="/" exact activeStyle>
-                            Home
-                        </NavLink>
-                        <NavLink to="/about" activeStyle>
-                            About
-                        </NavLink> */}
-        </div>
-    );
+        <NavLink style={{ color:'white'}} to="/" exact activeStyle>
+          Home
+        </NavLink>
+        <NavLink style={{ color:'white'}} to="/about" activeStyle>
+          About
+        </NavLink>
+        <NavLink style={{ color:'white'}} to="/facts" activeStyle>
+          Facts
+        </NavLink>
+      </div>
+    </div>
+  );
 }

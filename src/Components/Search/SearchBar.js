@@ -7,10 +7,10 @@ export default function SearchBar() {
             <center>
                 <form  className="form" action="/" method="get">
                     <label htmlFor="header-search">
-                        <span className="visually-hidden">Search Myths </span>
+                        <span className="visually-hidden">Search False statements </span>
                     </label>
-                    <input type="text" id="header-search" placeholder="Search Myths" name="s" />
-                    <button type="submit">Search</button>
+                    <input type="text" id="header-search" placeholder="Search False statements" name="s" />
+                    {/* <button type="submit">Search</button> */}
                 </form>
             </center>
         </div>

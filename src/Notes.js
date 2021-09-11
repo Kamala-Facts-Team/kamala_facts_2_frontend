@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Notes() {
     return (
-        <div className="App">
+        <div>
             <center>
                 <h1>The New And Improved Kamala Facts 2 Application</h1>
                 <h3>

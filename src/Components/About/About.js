@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="App">
+        <div>
             <center>
                 <h2>Who is Kamala?</h2>
                 <p class="fst-italic my-4">
