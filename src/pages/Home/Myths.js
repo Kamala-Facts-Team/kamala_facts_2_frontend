@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from "react";
 import PageSearchBar from "../../components/searchbar/PageSearchBar";
+import MythsContent from "./MythsContent";
+import useStore from "../../store";
 import "./myths.css";
 
 export default function Myths() {
+
+    const addarraytomyths = useStore((state) => state.addarraytomyths);
+    const mythsarray = useStore((state) => state.myths);
+
+    // console.log(mythsarray[0]);
+
     // usestate
     const [myths, setMyths] = useState({});
     const [Loading, setLoading] = useState(false);
@@ -14,10 +22,12 @@ export default function Myths() {
             const data = await response.json();
             setMyths(data);
             setLoading(true);
+            addarraytomyths(data);
         };
 
         fetchData();
     }, []);
+
 
     // Maps over object values from the api and filters by lie statment depending
     // on what is typed in the search bar
@@ -33,14 +43,18 @@ export default function Myths() {
         })
         .map((item) => {
             return (
-                <div key={item.id}>
-                    <h3>`Myth: ${item.lie_statement}`</h3>
-                    {item.facts.map((fact) => {
-                        return <p>`Truth: {fact.truth_statement}`</p>;
-                    })}
-                </div>
+                <div  key={item.id}>
+        <MythsContent key={item.id} id={item.id} myth={item.lie_statement} />
+        {/* <h3>`LIES: ${item.lie_statement}`</h3> */}
+        {/* {item.facts.map((fact) => {
+          return <p>`Facts: {fact.truth_statement}`</p>;
+        })} */}
+      </div>
             );
         });
+
+
+        // console.log(myths);
 
     return (
         <div className="home_container">
@@ -53,9 +67,10 @@ export default function Myths() {
                 /> */}
 
                 <PageSearchBar setInputData={setInputData} inputData={inputData} />
-
-                <h1>The myths will render here </h1>
+               <div className="outer-Div">
+                {/* <h1>The myths will render here </h1> */}
                 {Loading ? mapMyths : <div>Loading</div>}
+                </div>
             </center>
         </div>
     );
