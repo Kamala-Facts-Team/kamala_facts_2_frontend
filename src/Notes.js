@@ -24,7 +24,7 @@ export default function Notes() {
                     </a>
                     Use me as a guide/reference as you build out Kamala Facts 2
                 </h2>
-                <h4>This will not be here amongst production. Just for your reference.</h4>
+                <h4 style={{color: "blue"}}>This will not be here amongst production. Just for your reference.</h4>
             </center>
         </div>
     );
