@@ -4,11 +4,14 @@ import useStore from "../../store";
 
 export default function Facts() {
     const myths = useStore((state) => state.myths);
-    const newmyths = Object.values(myths);
+    const newmyths = Object.values(myths[0]);
+
 
     const { factsID } = useParams();
 
-    const filtermyths = newmyths[0].filter((item) => item.id === factsID);
+    const filtermyths = newmyths.filter((item) => item.id == factsID);
+
+  
 
     const facts = filtermyths.map((item) => [
         <div>
