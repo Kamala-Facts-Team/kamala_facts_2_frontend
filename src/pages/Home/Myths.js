@@ -2,13 +2,15 @@ import React, { useState, useEffect } from "react";
 import PageSearchBar from "../../components/searchbar/PageSearchBar";
 import MythsContent from "./MythsContent";
 import useStore from "../../store";
+import { useParams } from "react-router-dom";
 import "./myths.css";
 
 export default function Myths() {
   const addarraytomyths = useStore((state) => state.addarraytomyths);
   const mythsarray = useStore((state) => state.myths);
+  const { factsID } = useParams();
 
-  // console.log(mythsarray[0]);
+ console.log(factsID + "factsId");
 
   // usestate
   const [myths, setMyths] = useState({});
@@ -38,13 +40,11 @@ export default function Myths() {
     border: "4px solid grey",
   };
 
-  function selectedLie(id,event){
-      event.preventDefault();
+  function selectedLie( id, e) {
+    e.preventDefault();
     SetSelectedID(id);
     console.log(id);
-    
   }
- 
 
   // Maps over object values from the api and filters by lie statment depending
   // on what is typed in the search bar
@@ -107,10 +107,13 @@ export default function Myths() {
     })
     .map((item) => {
       return (
-        <div key={item.id} style={item.id == selectedID  ? ChosenStyle : regularStyle}>
+        <div
+          key={item.id}
+          style={item.id == factsID ? ChosenStyle : regularStyle}
+        >
           {/* <div style={ChosenStyle} key={item.id}>  */}
           <MythsContent
-            click={() => selectedLie(item.id)}//////the page is reloading right a function to prevent it
+            click={(e) => selectedLie(item.id, e)} //////the page is reloading right a function to prevent it
             // click ={setTimeout(() => selectedLie(item.id), 2000)}
             key={item.id}
             id={item.id}
@@ -119,7 +122,7 @@ export default function Myths() {
         </div>
       );
     });
-    console.log(selectedID);
+  console.log(selectedID);
 
   // console.log(myths);
 
