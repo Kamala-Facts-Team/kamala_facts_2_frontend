@@ -1,9 +1,10 @@
-import React from "react";
+import React ,{ useState }from "react";
 
 import { Link } from "react-router-dom";
 import './mythcontent.css'
 
 export default function MythsContent(props) {
+
   return (
     
       <div className="inner-div">
