@@ -1,32 +1,36 @@
-# The New And Improved Kamala Facts 2 Application
- This application will be built off of React with a Rails API. The Rails API repo is here:
-         <a href ="https://github.com/Sydnee510/kamala_facts_2_backend"> API Kamala Facts 2 </a>
-         Clone it so you can see how it operates and lets get creative! 
+# Kamala Facts 2
 
-## DONT GET ME CONFUSED WITH KAMALA FACTS 1 
-Kamala Facts 1 application:
-         <a href ="https://kamalafacts.com/"> Remember Me </a>
+Second version of kamala facts that redesigns to front page
 
 ## Installation
 
-Clone this repo:
+We use docker to set up our environment
 
-https://github.com/Kamala-Facts-Team/kamala_facts_2_frontend
+To download docker on linux run these commands
 
-## Available Scripts
+```bash
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
 
-In the project directory, you can run:
+## Run Locally
 
-### `yarn install` or `npm install`
+#### Clone the project
 
-### `yarn start` or `npm start`
+Using ssh
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+git clone git@github.com:Kamala-Facts-Team/kamala_facts_2_frontend.git
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run this command in your terminal to install all project dependencies
 
- ## Want to contribute?
-Fill out this form: <a href="https://8chs9p8ozu1.typeform.com/to/qLkOY7W1" target="blank">Contribute</a>
+```bash
+docker-compose up
+```
 
+## Port
+
+Visit this link to view the project
+
+[http://172.20.0.2:3000/](http://172.20.0.2:3000/)
