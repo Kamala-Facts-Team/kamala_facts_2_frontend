@@ -1,6 +1,9 @@
 # Kamala Facts 2
 
-Second version of kamala facts that redesigns to front page
+Second version of kamala facts that currently is built off of a Rails API and a react frontend. 
+
+## Rails API:
+https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
 
 ## Installation
 
