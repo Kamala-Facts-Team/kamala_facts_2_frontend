@@ -13,11 +13,7 @@ import { useParams } from "react-router-dom";
 import "./myths.css";
 
 export default function Myths() {
-    const hit = ({ hit }) => (
-        <div key={hit.id}>
-            <MythsContent key={hit.id} id={hit.id} myth={hit.lie_statement} />
-        </div>
-    );
+    const hit = ({ hit }) => <MythsContent key={hit.id} id={hit.id} myth={hit.lie_statement} />;
 
     const searchClient = algoliasearch("6QTOOUPAFK", "01603cf64c262e9c27d4099b3743d96f");
 

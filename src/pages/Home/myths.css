@@ -55,6 +55,16 @@
     display: none;
 }
 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+/* .ais-Hits-item {
+    display: inline;
+} */
+
 /* <div class="ais-SearchBox">
   <form class="ais-SearchBox-form" novalidate>
     <input class="ais-SearchBox-input" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search for products" spellcheck="false" maxlength="512" type="search" value="" />
