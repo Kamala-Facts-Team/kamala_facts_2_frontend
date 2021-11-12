@@ -1,19 +1,12 @@
-
-
-
-.inner-div{
-    background-color: rgba(111, 102, 90, 0.864);
-    width:100%;
-    border-style: solid;
-    border-color: rgb(92, 79, 79);
+.inner-div {
+    background-color: rgba(230, 230, 230, 0.864);
+    width: 100%;
     width: 200px;
-    min-height: 200px;  
-    margin:5px;
-
+    min-height: 200px;
+    margin: 5px;
 }
 
-
-.fales{
+.fales {
     color: white;
     font-size: 0.8rem;
 }
