@@ -1,0 +1,25 @@
+FROM node:16-alpine3.11 AS build
+
+WORKDIR /kamala_facts
+
+COPY package* package-lock.json yarn.lock ./
+
+RUN npm ci --production && yarn install --frozen-lockfile
+
+COPY public ./public
+
+COPY src ./src
+
+COPY . .
+
+RUN npm run build
+
+
+FROM nginx:1.21.3 AS prod
+
+COPY --from=build /kamala_facts/build /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
