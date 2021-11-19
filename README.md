@@ -1,6 +1,6 @@
 # Kamala Facts 2
 
-This second version of Kamala Facts is currently built using a Rails API and a react frontend. 
+This second version of Kamala Facts is currently built using a Algolia API and a react frontend. 
 
 ## Rails API:
 https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
