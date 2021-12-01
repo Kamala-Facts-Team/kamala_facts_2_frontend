@@ -10,7 +10,6 @@
 }
 
 .outer-Div {
-    overflow: hidden;
     overflow: scroll;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;
@@ -23,6 +22,23 @@
     height: 360px;
     position: relative;
     top: 10px;
+}
+
+.outer-Div::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+}
+
+.outer-Div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.outer-Div::-webkit-scrollbar-thumb {
+    background: rgb(87, 86, 86);
+}
+
+.outer-Div::-webkit-scrollbar-thumb:hover {
+    background: rgb(66, 66, 66);
 }
 
 .ais-SearchBox {
