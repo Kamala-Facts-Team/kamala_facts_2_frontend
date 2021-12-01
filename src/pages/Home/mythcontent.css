@@ -1,4 +1,4 @@
-.inner-div {
+/* .inner-div {
     background-color: rgba(230, 230, 230, 0.864);
     width: 100%;
     width: 200px;
@@ -8,5 +8,14 @@
 
 .fales {
     color: white;
+    font-size: 0.8rem;
+} */
+
+.mythContainer {
+    width: 10rem;
+    height: 10rem;
+}
+
+.mythBox {
     font-size: 0.8rem;
 }
