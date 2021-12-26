@@ -1,28 +1,37 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { Link } from "react-router-dom";
 import "./mythcontent.css";
 
 export default function MythsContent(props) {
     function openModal() {
         props.setIsOpen(true);
-        console.log(props);
     }
 
     function closeModal() {
         props.setIsOpen(false);
-        console.log(props);
     }
 
+    function SetModalInfo(statment) {
+        props.setModalInfo(statment);
+    }
+
+    function modalBoolean() {
+        props.isOpen ? closeModal() : openModal();
+    }
+    console.log(props);
+
     return (
-        <button onClick={props.isOpen ? closeModal : openModal}>
+        <button
+            onClick={() => {
+                modalBoolean();
+                SetModalInfo([props.lie, props.truth]);
+            }}
+        >
             <div className="mythContainer">
-                <h2 className="mythBox" style={{ color: "black" }}>
-                    Myth: {props.myth}
-                </h2>
+                <p className="mythBox" style={{ color: "black" }}>
+                    {props.hit.title}
+                </p>
             </div>
         </button>
     );
 }
-
-// onClick={ ()=> console.log(props.id)}]s

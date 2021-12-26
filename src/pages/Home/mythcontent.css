@@ -1,21 +1,10 @@
-/* .inner-div {
-    background-color: rgba(230, 230, 230, 0.864);
-    width: 100%;
-    width: 200px;
-    min-height: 200px;
-    margin: 5px;
-}
-
-.fales {
-    color: white;
-    font-size: 0.8rem;
-} */
-
 .mythContainer {
     width: 10rem;
     height: 10rem;
 }
 
 .mythBox {
-    font-size: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 20%;
 }
