@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./about.css";
+
 export default function About() {
     return (
-        <div className="App">
-            <center>
+        <center className="parent">
+            <div>
                 <h2>Who is Kamala?</h2>
                 <p class="fst-italic my-4">
                     <b>Kamala Devi Harris</b> is the first woman, the first Black person, and the first Asian-American
@@ -42,7 +44,7 @@ export default function About() {
                     </a>
                     <br></br>
                 </div>
-            </center>
-        </div>
+            </div>
+        </center>
     );
 }

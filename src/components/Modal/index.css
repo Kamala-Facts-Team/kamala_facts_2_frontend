@@ -1,11 +1,10 @@
 .modalContainer {
-    display: flex;
     position: absolute;
     justify-content: center;
     z-index: 20;
     left: 20vw;
     top: 20vh;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(249 249 249);
     height: 30rem;
     width: 70rem;
 }
@@ -22,74 +21,67 @@
     opacity: 1;
 }
 
-.leftContainer {
-    width: 9rem;
-    margin: 2rem 2rem 0 3rem;
-}
-
-.leftContainer > div,
-.leftContainer > p {
-    text-align: center;
-}
-
-.leftContainer > div {
-    margin-top: 6rem;
-}
-
 .rightContainer {
-    display: inline-table;
-    padding: 2rem 1rem 0 1.75rem;
-    width: 30rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .lieContainer {
-    display: flex;
-    border-radius: 1rem;
-    background-color: rgb(104, 104, 104);
     height: 8.75rem;
-    width: 53rem;
+    width: 100%;
 }
 
 .truthContainer {
     display: flex;
-    margin: 1.6rem 0 0 0;
-    border-radius: 1rem;
-    background-color: rgb(104, 104, 104);
+    justify-content: space-between;
+    gap: 5px;
+    margin: 2.6rem 0.3rem 0 0;
     height: 8.75rem;
-    width: 53rem;
+    width: 100%;
+}
+
+.truthbox {
+    flex-grow: 1;
+    width: inherit;
 }
 
 .boxTitle {
     background-color: black;
     color: white;
-    border-radius: 1rem;
-    height: 8.6rem;
-    width: 10.5rem;
+    height: 2rem;
 }
 
 .boxTitle > h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 2rem;
-    margin-top: 2.8rem;
+    font-size: 1.5rem;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .boxDesc {
-    margin: 1rem;
-    width: 41rem;
-}
-
-.boxDesc > h2 {
-    margin: 0;
-}
-
-.boxDesc > p {
-    margin: 0.5rem 0 0 0;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .sourceContainer {
-    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.sourceTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sourceLinks {
+    margin-top: 2rem;
+    flex-grow: 1;
+    width: inherit;
 }
 
 .noMargin {

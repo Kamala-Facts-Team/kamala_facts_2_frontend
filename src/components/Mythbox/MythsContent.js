@@ -18,13 +18,12 @@ export default function MythsContent(props) {
     function modalBoolean() {
         props.isOpen ? closeModal() : openModal();
     }
-    console.log(props);
 
     return (
         <button
             onClick={() => {
                 modalBoolean();
-                SetModalInfo([props.lie, props.truth]);
+                SetModalInfo(props);
             }}
         >
             <div className="mythContainer">

@@ -4,12 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Kamala-pic-1 {
-    height: 30rem;
-    width: 50rem;
-    color: aliceblue;
-}
-
 .outer-Div {
     overflow: scroll;
     scrollbar-width: none; /* Firefox */
@@ -85,9 +79,7 @@ li {
     margin-bottom: 0.5rem;
 }
 
-/* .ais-Hits-item {
-    display: inline;
-} */
+/* example of algolia search box */
 
 /* <div class="ais-SearchBox">
   <form class="ais-SearchBox-form" novalidate>

@@ -1,8 +1,8 @@
 import React from "react";
 import About from "../pages/About/About";
-import Notes from "../Notes";
+import Notes from "../pages/Notes/Notes";
 import Navbar from "../components/Navbar/Navbar";
-import Myths from "../pages/Home/Myths";
+import Myths from "../pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../style.css";
 

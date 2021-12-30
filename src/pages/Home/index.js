@@ -4,7 +4,7 @@ import algoliasearch from "algoliasearch/lite";
 import { InstantSearch, SearchBox, Hits, connectStateResults } from "react-instantsearch-dom";
 
 import Modal from "../../components/Modal/index";
-import MythsContent from "./MythsContent";
+import MythsContent from "../../components/Mythbox/MythsContent";
 import MissingQuery from "../../components/404";
 
 import "./myths.css";
