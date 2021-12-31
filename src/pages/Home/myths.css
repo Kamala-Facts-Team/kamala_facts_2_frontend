@@ -13,7 +13,7 @@
     justify-content: center;
     border-style: solid;
     border-color: rgb(48, 64, 80);
-    width: 42%;
+    width: fit-content;
     height: 360px;
     position: relative;
     top: 10px;
@@ -71,7 +71,7 @@ ul {
     flex-wrap: wrap;
     list-style: none;
     width: 46rem;
-    margin-right: 1.5rem;
+    padding: 0 0 0 1rem;
 }
 
 li {
