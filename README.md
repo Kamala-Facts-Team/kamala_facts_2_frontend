@@ -7,6 +7,8 @@ https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
 
 ## Gitpod:
 https://emerald-sheep-qfyxx9t9.ws-us25.gitpod.io/
+# Run Gitpod in browser: 
+https://3000-emerald-sheep-qfyxx9t9.ws-us25.gitpod.io/
 
 ## Installation
 
