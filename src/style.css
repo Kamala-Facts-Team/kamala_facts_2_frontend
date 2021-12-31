@@ -8,19 +8,19 @@
     width: 1px;
 }
 
-.App {
+/* Photo credit: Photo by <a href="https://unsplash.com/@sbranch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Branch</a> on <a href="https://unsplash.com/s/photos/us-flag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* old photo "https://cdn.britannica.com/47/213247-050-92140283/United-States-senator-Democratic-presidential-candidate-Kamala-Harris-April-2019.jpg" */
+
+body {
+    margin: 0;
     background-image: linear-gradient(rgba(26, 45, 58, 0.775), rgba(26, 45, 58, 0.775)),
-        url("https://cdn.britannica.com/47/213247-050-92140283/United-States-senator-Democratic-presidential-candidate-Kamala-Harris-April-2019.jpg");
+        url("./assets/images/usflag-1.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: 100%;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-body {
-    margin: 0;
 }
 
 .App::-webkit-scrollbar {

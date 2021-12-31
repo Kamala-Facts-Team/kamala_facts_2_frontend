@@ -1,0 +1,89 @@
+.modalContainer {
+    position: absolute;
+    justify-content: center;
+    z-index: 20;
+    left: 20vw;
+    top: 20vh;
+    background-color: rgb(249 249 249);
+    height: 30rem;
+    width: 70rem;
+}
+
+.modalBackground {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 22, 0.8);
+    opacity: 1;
+}
+
+.rightContainer {
+    padding: 0 1rem 0 1rem;
+}
+
+.lieContainer {
+    height: 8.75rem;
+    width: 100%;
+}
+
+.truthContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 2.6rem 0.3rem 0 0;
+    height: 8.75rem;
+    width: 100%;
+}
+
+.truthbox {
+    flex-grow: 1;
+    width: inherit;
+}
+
+.boxTitle {
+    background-color: black;
+    color: white;
+    height: 2rem;
+}
+
+.boxTitle > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.boxDesc {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.sourceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.sourceTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sourceLinks {
+    margin-top: 2rem;
+    flex-grow: 1;
+    width: inherit;
+}
+
+.noMargin {
+    margin: 0;
+}

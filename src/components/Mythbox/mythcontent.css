@@ -1,0 +1,13 @@
+.mythContainer {
+    width: 10rem;
+    height: 7rem;
+}
+
+.mythBox {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 6px;
+}
