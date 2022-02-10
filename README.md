@@ -53,10 +53,10 @@ Visit this link to view the project
 [http://172.20.0.2:3000/](http://172.20.0.2:3000/)
 
 ## Contributors
-[Sydnee Sampson, Software Engineer](https://github.com/Sydnee510)\ 
-[Malasia Woods, Software Engineer](https://github.com/malasia-415)\
-[Brittany Ball, Documentation Egineer](https://github.com/SincerelyBrittany)\
-[Angelines Yaport-Garcia, Technical Writer](https://github.com/AngelinesYG)\
-[Carlos, Software Engineer](https://github.com/Clue355)\
+[Sydnee Sampson - Software Engineer](https://github.com/Sydnee510)<br /> 
+[Malasia Woods - Software Engineer](https://github.com/malasia-415)<br />
+[Brittany Ball - Documentation Egineer](https://github.com/SincerelyBrittany)<br />
+[Angelines Yaport-Garcia - Technical Writer](https://github.com/AngelinesYG)<br />
+[Carlos - Software Engineer](https://github.com/Clue355)<br />
 []()
 
