@@ -1,6 +1,6 @@
 # Kamala Facts 2
 
-![Kamala Facts](https://imgur.com/a/NKSkij6)
+[Kamala Facts](https://imgur.com/a/NKSkij6)
 
 This second version of Kamala Facts is currently built using a Algolia API and a react frontend. 
 
@@ -53,10 +53,10 @@ Visit this link to view the project
 [http://172.20.0.2:3000/](http://172.20.0.2:3000/)
 
 ## Contributors
-![Sydnee Sampson, Software Engineer](https://github.com/Sydnee510), 
-![Malasia Woods, Software Engineer](https://github.com/malasia-415)
-![Brittany Ball, Documentation Egineer](https://github.com/SincerelyBrittany)
-![Angelines Yaport-Garcia, Technical Writer](https://github.com/AngelinesYG)
-![Carlos, Software Engineer](https://github.com/Clue355)
-![]()
+[Sydnee Sampson, Software Engineer](https://github.com/Sydnee510), 
+[Malasia Woods, Software Engineer](https://github.com/malasia-415)
+[Brittany Ball, Documentation Egineer](https://github.com/SincerelyBrittany)
+[Angelines Yaport-Garcia, Technical Writer](https://github.com/AngelinesYG)
+[Carlos, Software Engineer](https://github.com/Clue355)
+[]()
 
