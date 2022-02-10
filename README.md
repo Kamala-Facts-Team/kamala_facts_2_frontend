@@ -4,12 +4,12 @@
 
 This second version of Kamala Facts is currently built using a Algolia API and a react frontend. 
 
-Kamala Facts is a website dedicated to providing the truth about all things Kamala. As a strong political woman, who fights for equal rights and better living conditions for minorities and underrepresented communities, Kamala faces a lot of backlash, rumors, and criticism. With Kamala Facts, we intend to put those issues to rest by providing the true facts about Kamala and her works. When users visit Kamala Facts, they can search for whatever rumor or story they’ve heard and learn the real truth of the matter, as well as become more educated about it. 
+Kamala Facts is a website dedicated to providing the truth about all things Kamala. As a strong political woman, who fights for equal rights and better living conditions for minorities and underrepresented communities, Kamala faces a lot of backlash, rumors, and criticism. With Kamala Facts, we intend to put those issues to rest by providing the true facts about Kamala and her works. When users visit Kamala Facts, they can search for whatever rumor or story they’ve heard and learn the real truth of the matter, as well as become more educated about it.<br /> 
 This API provides access to specific facts, which have been collected and reviewed by subject matter experts and those working closely with Kamala. 
 
 
 ## Rails API:
-https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
+https://kamala-facts-2-backend.herokuapp.com/api/v1/myths<br />
 Purpose: The team used Rails to build the API because Rails is one of the frameworks that includes a more complete combination of the things needed to “create a database-backed web application” (according to [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern). This ultimately makes storing information in the database easier and more accessible during user searches. 
 
 ## Gitpod:
@@ -20,7 +20,7 @@ https://3000-emerald-sheep-qfyxx9t9.ws-us25.gitpod.io/
 ## Installation
 
 ### Docker
-We used docker to set up our runtime environment
+We used docker to set up our runtime environment<br />
 Purpose: For users to be able to run the code on any computer even when their environment is not set up with the required dependencies. Users can clone the repo and fire off the application with just a few docker commands. The docker build will install all the required dependencies without the user having to install everything manually. This saves a lot of time for developers, because they can get right to work without having to conduct multiple searches to figure out what dependency or package they need to run a specific command or function. Docker has already taken care of that for them. 
 
 To download docker on linux run these commands
