@@ -10,7 +10,7 @@ This API provides access to specific facts, which have been collected and review
 
 ## Rails API:
 https://kamala-facts-2-backend.herokuapp.com/api/v1/myths
-Purpose: The team used Rails to build the API because Rails is one of the frameworks that includes a more complete combination of the things needed to “create a database-backed web application” (according to ![Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern). This ultimately makes storing information in the database easier and more accessible during user searches. 
+Purpose: The team used Rails to build the API because Rails is one of the frameworks that includes a more complete combination of the things needed to “create a database-backed web application” (according to [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern). This ultimately makes storing information in the database easier and more accessible during user searches. 
 
 ## Gitpod:
 https://emerald-sheep-qfyxx9t9.ws-us25.gitpod.io/
