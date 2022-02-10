@@ -40,7 +40,7 @@ Using ssh
 git clone git@github.com:Kamala-Facts-Team/kamala_facts_2_frontend.git
 ```
 
-Run this command in your terminal to install all project dependencies
+Switch directories into your newly cloned project, and at the root run this command in your terminal to install all project dependencies
 
 ```bash
 docker-compose up
