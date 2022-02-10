@@ -1,6 +1,6 @@
 # Kamala Facts 2
 
-[Kamala Facts](https://i.imgur.com/nQnW09R.png)
+![Kamala Facts](https://i.imgur.com/nQnW09R.png)
 
 This second version of Kamala Facts is currently built using a Algolia API and a react frontend. 
 
