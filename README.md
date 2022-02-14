@@ -15,10 +15,17 @@ Purpose: To build the application the developers used React on the frontend. Rea
 [Algolia Search](https://www.algolia.com/)
 [Algolia Documentation](https://www.algolia.com/doc/)
 Purpose: To create a robust search engine that is fast and powerful. Ever wonder how on earth does the internet know what you are trying to search for before you even finish typing it? That's what the Algolia search functionality does. This search engine provides users the ability to search even when they don’t fully really know what they want to search for or may not be sure what specific words to use. It does this by providing users with hints or suggestions on what to type into the search bar. 
+# Getting Started 
+
+## Prerequisites 
+* npm 
+  ```bash 
+  npm install npm@latest -g
+  ```
 
 ## Installation
 
-### Install Docker
+1. Install Docker
 We used docker to set up our runtime environment<br />
 Purpose: For users to be able to run the code on any computer even when their environment is not set up with the required dependencies. Users can clone the repo and fire off the application with just a few docker commands. The docker build will install all the required dependencies without the user having to install everything manually. This saves a lot of time for developers, because they can get right to work without having to conduct multiple searches to figure out what dependency or package they need to run a specific command or function. Docker has already taken care of that for them. 
 
@@ -29,9 +36,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-## Run Locally
-
-#### Clone the project
+2. Clone the repo
 
 Using ssh
 
@@ -41,6 +46,11 @@ git clone git@github.com:Kamala-Facts-Team/kamala_facts_2_frontend.git
 
 Switch directories into your newly cloned project, and at the root run this command in your terminal to install all project dependencies
 
+3. Install NPM packages 
+```bash
+npm install 
+```
+4. Run app using Docker
 ```bash
 docker-compose up
 ```
@@ -50,6 +60,7 @@ docker-compose up
 Visit this link to view the project
 
 [http://172.20.0.2:3000/](http://172.20.0.2:3000/)
+
 
 # Used on the Backend 
 
@@ -65,7 +76,7 @@ https://emerald-sheep-qfyxx9t9.ws-us25.gitpod.io/
 ### Run Gitpod in browser: 
 https://3000-emerald-sheep-qfyxx9t9.ws-us25.gitpod.io/
 
-## Contributors
+## Contributors to this Project Repo
 [Sydnee Sampson - Software Engineer](https://github.com/Sydnee510)<br /> 
 [Malasia Woods - Software Engineer](https://github.com/malasia-415)<br />
 [Brittany Ball - Documentation Egineer](https://github.com/SincerelyBrittany)<br />
