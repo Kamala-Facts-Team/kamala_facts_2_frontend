@@ -1,10 +1,10 @@
-FROM node:12-alpine AS build
+FROM node:19.6.0-alpine3.16 AS build
 
 WORKDIR /code
 
-COPY package* package-lock.json ./
+COPY package.json yarn.lock ./
 
-RUN npm ci --production 
+RUN yarn install --immutable --immutable-cache --check-cache
 
 COPY public ./public
 
@@ -12,4 +12,4 @@ COPY src ./src
 
 COPY . .
 
-CMD ["npm","run", "start"]
+CMD ["yarn", "start"]
